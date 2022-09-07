@@ -42,3 +42,27 @@ input[type="radio"] {
   
 }
 
+/*TITULO*/
+.contenedor-title{
+  display: grid;
+  grid-template-columns: repeat(2,10%);
+  justify-content: right;
+}
+.title{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#icon-title{
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  font-size: 28px;
+  margin-right: 10px;
+  
+}
+#icon-titlee{
+  border-radius: 20px;
+  font-size: 28px;
+  margin-left: 10px;
+  backdrop-filter: blur(10px);
+  
+}
