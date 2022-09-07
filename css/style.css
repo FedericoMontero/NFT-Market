@@ -1,4 +1,44 @@
+:root{
+  --gradientoscu: #9600FF;
+  --gradientcla:#AEBAF8;
+}
+body{
+  background: linear-gradient(to right, var(--gradientoscu), var(--gradientcla));
+}
+
 input[type="radio"] {
     position: absolute;
     left: -9999px;
   }
+
+  /*MOBILE FIRST
+  MENU INFERIOR*/
+  nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    /*background: ; PROBAR CON css.glass*/
+    
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+
+  }
+
+.nav_menu{
+  /*display: flex;
+  flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 20px;
+  
+}
+
