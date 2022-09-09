@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <a class="nav_menu">
+        <a class="nav_menu" href="../index.html">
             <span class="material-symbols-outlined">home</span>
         </a>
         <a class="nav_menu">
@@ -28,12 +28,23 @@
                 </span>
         </a>
     </nav>
-
     <div>
-        <p id="disponibledolares"></p>
-        <p id="disponiblebtc"></p>
-        <button onclick="comprar()">Comprar</button>
+        <div class="titulo_curvo">
+            <h1>Mi Cartera</h1>
+        </div>
+        <div class="saldo_dolares">
+            <p class="parrafo_disponible">Saldo USD disponible</p>
+            <p class="parrafo_disponibleMONTO" id="disponibledolares"></p>
+        </div>
+        <div class="saldo_BTC">
+            <p class="parrafo_disponible">Saldo BTC disponible</p>
+            <p class="parrafo_disponibleMONTO" id="disponiblebtc"></p>
+        </div>
     </div>
+        
+        
+        <button class="btn_comprar" onclick="comprar()">Comprar</button>
+    
     <script src="../js/cartera.js"></script>
 </body>
 </html>

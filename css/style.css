@@ -1,9 +1,11 @@
 :root{
-  --gradientoscu: #9600FF;
-  --gradientcla:#AEBAF8;
+  --gradientoscu: #fff;
+  --gradientcla:#ffff;
 }
 body{
   background: linear-gradient(to right, var(--gradientoscu), var(--gradientcla));
+  margin: 0;
+  padding: 0;
 }
 
 input[type="radio"] {
@@ -65,4 +67,51 @@ input[type="radio"] {
   margin-left: 10px;
   backdrop-filter: blur(10px);
   
+}
+
+.saldo_dolares{
+  height: 150px;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(to right, #3ca55c, #b5ac49);
+  color: #fff;
+  margin: 15px;
+}
+
+.saldo_BTC{
+  margin: 15px;
+  height: 150px;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  color: #fff;
+}
+.parrafo_disponible{
+  padding: 10px;
+  font-size: 16px;
+  
+}
+.parrafo_disponibleMONTO{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.btn_comprar{
+  margin-top: 20px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  align-content: center;
+  font-size: 30px;
+  background: #8e2de2;
+  color: #fff;
+  
+}
+.titulo_curvo{
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  border-radius: 0px 0px 15px 15px;
+  margin: 0;
+  padding: 20px;
+}
+.titulo_curvo h1{
+  color: #fff;
+  padding:  0;
 }
