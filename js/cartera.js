@@ -1,4 +1,9 @@
 //Profile Primera entrega
+    let disponible_dolares=2000
+    let disponible_BTC=5
+    let cotizacion_BTC=25
+    document.getElementById("disponibledolares").innerHTML="Su saldo actual es: "+disponible_dolares
+    document.getElementById("disponiblebtc").innerHTML="Su saldo actual es: "+disponible_BTC
 
 function comprar(){
     let disponible_dolares=2000
