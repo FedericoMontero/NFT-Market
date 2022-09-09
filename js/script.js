@@ -9,3 +9,7 @@ for (coin of coins){
     <p>Precio: ${coin.precio}</p>`;
     document.body.appendChild(contenedor)
 }
+
+
+
+
