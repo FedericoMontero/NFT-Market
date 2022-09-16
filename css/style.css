@@ -1,6 +1,9 @@
 :root{
   --gradientoscu: #fff;
   --gradientcla:#ffff;
+  --botonesfilter1:#af99ff;
+  --botonesfilter2:#724cf9;
+
 }
 body{
   background: linear-gradient(to right, var(--gradientoscu), var(--gradientcla));
@@ -114,4 +117,50 @@ input[type="radio"] {
 .titulo_curvo h1{
   color: #fff;
   padding:  0;
+}
+
+/*Index, mobile*/
+
+.boton-filter{
+  text-decoration: none;
+  margin: 6px;
+  padding: 2px;
+  background: var(--botonesfilter2);
+  border-radius: 5px;
+  box-shadow: 4px 4px rgba(0,0,0,0.2);
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.container-pujas{
+  margin:15px;
+}
+
+.banner_index{
+  margin: 24px;
+}
+
+.title-coleccion{
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+}
+
+.title-section{
+  font-size: 20px;
+  margin: 15px;
+}
+
+.card{
+  box-shadow: 6px 6px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+.comprar{
+  background: var(--botonesfilter1);
+  font-size: 20px;
+  margin: 15px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
 }
