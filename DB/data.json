@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "nftnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img1.jpeg"
+    },
+    {
+        "id":2,
+        "nftnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img1.jpeg"
+    }
+]

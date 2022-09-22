@@ -24,3 +24,12 @@ function comprar(){
 }
 }
 
+
+const element = document.getElementById("vendernft");
+element.addEventListener("click", vender);
+function vender(){
+    document.getElementById("getserver").innerHTML = "Usted aun no esta autorizado a vender.";
+    alert("ERROR 4637846N")
+}
+
+

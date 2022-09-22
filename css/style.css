@@ -117,6 +117,7 @@ input[type="radio"] {
 .titulo_curvo h1{
   color: #fff;
   padding:  0;
+  
 }
 
 /*Index, mobile*/
@@ -131,6 +132,7 @@ input[type="radio"] {
   font-size: 20px;
   color: #fff;
   text-align: center;
+  margin-left: 10px;
 }
 
 .container-pujas{
@@ -156,6 +158,9 @@ input[type="radio"] {
   box-shadow: 6px 6px rgba(0,0,0,0.2);
   margin-top: 20px;
 }
+.card img{
+  height: 190px;
+}
 .comprar{
   background: var(--botonesfilter1);
   font-size: 20px;
@@ -163,4 +168,8 @@ input[type="radio"] {
   border: none;
   border-radius: 50px;
   color: #fff;
+}
+
+.titulo_curvo_index h1{
+  margin-left: 20px;
 }
