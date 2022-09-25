@@ -32,4 +32,17 @@ function vender(){
     alert("ERROR 4637846N")
 }
 
+//funcion basica de guardar datos en el localstorage
+guardar_datos();
+
+function guardar_datos(){
+    let usuario={
+        nombre:"Federico",
+        apellido:"Montero",
+        edad:22,
+        pais:"UY"
+    }
+    localStorage.setItem("usuario",JSON.stringify(usuario));
+}
+
 

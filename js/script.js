@@ -1,32 +1,6 @@
 
-//FETCH
-/*
-function fetchData(){
-    fetch("./DB/data.json")
-    .then(data => console.log(data))
-    .then(response => response.json())
-    }
-    
-        const html= data.data
-        .map(data=>{
-            return `
-            <div class="card">
-                <img src="${image}" alt="">
-                <div class="creador-nfts">${creator}</div>
-                <div class="name-ntf">${nftsnam}</div>
-                <div class="price-nfts">${price}</div>
-                <button class="comprar">Comprar</button>
-            </div>
-            `;
-        })
-        .join("");
-        console.log(html);
-        document.querySelector("#nfts-list").insertAdjacentHTML("afterbegin",html)
-    
-fetchData()
-
-*/
 //CONSTRUCTOR DE CARD
+
 
 let nfts=[
     {
@@ -106,44 +80,68 @@ let nfts=[
         "price":25,
         "image":"./assets/img1.jpeg"
     }
-]
-const DOMnfts=document.querySelector(".container-pujas")
+];
 
-function createCard(){
-    nfts.forEach((nft, indice) => {
-        const miNodo = document.createElement('div');
-        // Estructura
-miNodo.innerHTML+=
-`
-<div class="card">
+
+
+const dibujarNFT=()=>{
+let contenedor=document.getElementById("container-pujas");
+nfts.forEach((nft,indice) => {
+    let card = document.createElement("div");
+    card.classList.add("card","col-sm-12", "col-lg-3")
+    card.innerHTML+=`
     <img src="${nft.image}" alt="">
     <div class="creador-nfts">${nft.creator}</div>
     <div class="name-ntf">${nft.nftsnam}</div>
     <div class="price-nfts">${nft.price}</div>
-    <button onclick="prueba()" class="comprar">Comprar</button>
-</div>
-`
-DOMnfts.appendChild(miNodo)
-})
+    <button id="agregar${nft.id}" onclick="agregarCarrito(${indice})" class="comprar">Comprar</button>
+
+    `
+    contenedor.appendChild(card)
+});
+};
+
+dibujarNFT();
+let carrito=[]
+let modalcarrito=document.getElementById("carrito")
+
+const agregarCarrito=(indice)=>{
+    const indiceEncontradoCarrito= carrito.findIndex((elemento)=>{
+        return elemento.id===nfts[indice].id
+    })
+    if(indiceEncontradoCarrito===-1){
+        const nftAgregar=nfts[indice]
+        nftAgregar.cantidad=1;
+        carrito.push(nftAgregar);
+        dibujarCarrito();
+
+    }else{
+        carrito[indiceEncontradoCarrito].cantidad+=1;
+        dibujarCarrito()
+    }
+};
+
+let total=0
+
+
+const dibujarCarrito=()=>{
+    modalcarrito.className="carrito";
+    modalcarrito.innerHTML="";
+    if(carrito.length>0){
+        //me quede en 2.16.36
+        carrito.forEach((nft,indice) =>{
+            total=total+nft.price*nft.cantidad;
+            const carritoContainer=document.createElement("div");
+            carritoContainer.className="nft-galeria";
+            carritoContainer.innerHTML=`
+            <img class=car-img src="${nft.image}"/>
+            <div class="name-ntf">${nft.nftsnam}</div>
+
+            `
+            modalcarrito.appendChild(carritoContainer);
+        }); 
+    }else{
+        modalcarrito.classList.remove("carrito")
+    }
 }
-createCard();
-
-
-//WALLET DE NFT
-
-
-
-
-
-/*
-<div class="card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMknsLDOU0aQL6wc3cB188TZhjeuqbgRLSoQ&usqp=CAU" alt="">
-    <div class="creador-nfts"></div>
-    <div class="name-ntf"></div>
-    <div class="price-nfts"></div>
-     <button class="comprar">Comprar</button>
-</div> */
-
-
-
 
