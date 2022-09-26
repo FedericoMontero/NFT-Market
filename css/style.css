@@ -154,13 +154,15 @@ input[type="radio"] {
   margin: 15px;
 }
 
-.card{
+.card {
   box-shadow: 6px 6px rgba(0,0,0,0.2);
-  margin-top: 20px;
+  margin: 30px;
 }
 .card img{
   height: 190px;
 }
+
+
 .comprar{
   background: var(--botonesfilter1);
   font-size: 20px;
@@ -187,4 +189,23 @@ input[type="radio"] {
 }
 .nft-galeria img{
   height: 170px;
+}
+
+/*Crear efecto de like*/
+
+.like-animation{
+  height: 100px;
+  width: 100px;
+  background: url("../assets/likeAnimation.png");
+  background-position: left;
+  cursor:pointer
+}
+.like-animation:hover{
+  animation: like-anim 0.7s steps(28) forwards;
+}
+
+@keyframes like-anim{
+  to{
+    background-position: right;
+  }
 }
