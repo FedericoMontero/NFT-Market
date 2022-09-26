@@ -173,3 +173,18 @@ input[type="radio"] {
 .titulo_curvo_index h1{
   margin-left: 20px;
 }
+
+.btn-primary{
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.nft-galeria{
+  box-shadow: 6px 6px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  overflow: hidden;
+}
+.nft-galeria img{
+  height: 170px;
+}
