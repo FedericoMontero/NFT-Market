@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="assets/AppIcons/appstore.png" />
+
 
     <title>NFT Market</title>
 </head>
@@ -38,6 +42,7 @@
         <span id="icon-title" class="material-symbols-outlined">search</span>
         <span id="icon-titlee" class="material-symbols-outlined">notifications</span>
     -->
+
     </div>
     <div class="div-filter">
         <a href="" class="boton-filter">  🎨 Art  </a>
@@ -45,6 +50,8 @@
         <a href="" class="boton-filter"> 🎮 Game </a>
         <a href="" class="boton-filter"> 🚀 Space  </a>
     </div>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
     <div class="banner_index">
         <div class="title-coleccion">Colecciona los mejores NFT</div>
     </div>  
@@ -57,12 +64,27 @@
         <div class="container-Top">
             <div class="title-section">Mejores Vendedores</div>
 
-
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header justify-content-center">
+                <h3 id="offcanvasRightLabel" class="text-center">Carrito</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div id="carrito">
+                                <!-- <h5 class="text-center">Su carrito se encuentra vacío</h5> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div id="carrito">
-
         </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </html>

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "NFT Market",
+    "short_name": "NFT Market",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Tienda de NFT y Cripto",
+    "icons": [{
+      "src": "assets/AppIcons/Assets.xcassets/AppIcon.appiconset/48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }, {
+      "src": "iassets/AppIcons/Assets.xcassets/AppIcon.appiconset/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }, {
+      "src": "assets/AppIcons/Assets.xcassets/AppIcon.appiconset/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }, {
+      "src": "assets/AppIcons/Assets.xcassets/AppIcon.appiconset/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "assets/AppIcons/Assets.xcassets/AppIcon.appiconset/172.png",
+      "sizes": "172x172",
+      "type": "image/png"
+    }, {
+      "src": "assets/AppIcons/Assets.xcassets/AppIcon.appiconset/196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }]
+  }

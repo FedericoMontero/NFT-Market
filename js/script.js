@@ -15,71 +15,155 @@ let nfts=[
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img2.jpeg"
     },
     {
         "id":3,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img3.jpeg"
     },
     {
         "id":4,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img4.jpeg"
     },
     {
         "id":5,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
-    },
-    {
-        "id":6,
-        "nftsnam":"gg",
-        "creator":"Pedro",
-        "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img5.jpeg"
     },
     {
         "id":7,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
-    },
-    {
-        "id":8,
-        "nftsnam":"gg",
-        "creator":"Pedro",
-        "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img6.jpeg"
     },
     {
         "id":9,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
-    },
-    {
-        "id":10,
-        "nftsnam":"gg",
-        "creator":"Pedro",
-        "price":25,
-        "image":"./assets/img1.jpeg"
+        "image":"./assets/img7.jpeg"
     },
     {
         "id":11,
         "nftsnam":"gg",
         "creator":"Pedro",
         "price":25,
-        "image":"./assets/img1.jpeg"
-    }
+        "image":"./assets/img8.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img9.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img10.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img11.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img12.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img13.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img14.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img15.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img16.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img17.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img18.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img19.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img20.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img21.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img22.jpeg"
+    },
+    {
+        "id":11,
+        "nftsnam":"gg",
+        "creator":"Pedro",
+        "price":25,
+        "image":"./assets/img23.jpeg"
+    },
 ];
 
 
