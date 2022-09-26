@@ -156,7 +156,7 @@ input[type="radio"] {
 
 .card {
   box-shadow: 6px 6px rgba(0,0,0,0.2);
-  margin: 30px;
+  margin-top: 30px;
 }
 .card img{
   height: 190px;
