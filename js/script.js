@@ -244,6 +244,3 @@ function verToken(longitud){
     }
     return token
 };
-
-
-
