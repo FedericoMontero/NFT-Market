@@ -221,7 +221,6 @@ const dibujarCarrito=()=>{
             carritoContainer.innerHTML=`
             <img class=car-img src="${nft.image}"/>
             <div class="name-ntf">${nft.nftsnam}</div>
-            <button onclick="verToken(alert(verToken(30)))" class="comprar">Ver Token</button>
             
             `
             modalcarrito.appendChild(carritoContainer);
@@ -231,16 +230,3 @@ const dibujarCarrito=()=>{
     }
 }
 
-//Generador de token jeje
-let numeros="1234567890";
-let caracteres="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let cadena=numeros+caracteres;
-
-function verToken(longitud){
-    let token = ''
-    for(let x = 0; x< longitud; x++){
-        let aleatorio=Math.floor(Math.random()*cadena.length)
-        token += cadena.charAt(aleatorio);
-    }
-    return token
-};
