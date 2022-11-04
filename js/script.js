@@ -5,119 +5,119 @@
 let nfts=[
     {
         "id":1,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 1",
+        "creator":"Pedro Juan",
         "price":25,
         "image":"./assets/img1.jpeg"
     },
     {
         "id":2,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 2",
+        "creator":"Alex G.",
         "price":25,
         "image":"./assets/img2.jpeg"
     },
     {
         "id":3,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 3",
+        "creator":"Juan M.",
         "price":25,
         "image":"./assets/img3.jpeg"
     },
     {
         "id":4,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 4",
+        "creator":"Pepe T.",
         "price":25,
         "image":"./assets/img4.jpeg"
     },
     {
         "id":5,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 5",
+        "creator":"Debora M.",
         "price":25,
         "image":"./assets/img5.jpeg"
     },
     {
         "id":7,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 6",
+        "creator":"Ariel M.",
         "price":25,
         "image":"./assets/img6.jpeg"
     },
     {
         "id":9,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 7",
+        "creator":"Adrian T.",
         "price":25,
         "image":"./assets/img7.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 8",
+        "creator":"Elva J.",
         "price":25,
         "image":"./assets/img8.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 9",
+        "creator":"Federico M.",
         "price":25,
         "image":"./assets/img9.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 10",
+        "creator":"Chris C.",
         "price":25,
         "image":"./assets/img10.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 11",
+        "creator":"Samuel D.",
         "price":25,
         "image":"./assets/img11.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
-        "creator":"Pedro",
+        "nftsnam":"NFT 12",
+        "creator":"Ruben D.",
         "price":25,
         "image":"./assets/img12.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 13",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img13.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 14",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img14.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 15",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img15.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 16",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img16.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 17",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img17.jpeg"
@@ -131,35 +131,35 @@ let nfts=[
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 18",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img19.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 19",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img20.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 20",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img21.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 21",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img22.jpeg"
     },
     {
         "id":11,
-        "nftsnam":"gg",
+        "nftsnam":"NFT 22",
         "creator":"Pedro",
         "price":25,
         "image":"./assets/img23.jpeg"

@@ -40,4 +40,6 @@ var pais = localStorage.getItem("pais");
 document.getElementById("profile_nombre").innerHTML = nombre;
 document.getElementById("profile_pais").innerHTML = pais; 
 
-
+function functionRemove(){
+    localStorage.clear(pais)
+}

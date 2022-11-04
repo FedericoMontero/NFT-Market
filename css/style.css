@@ -212,3 +212,10 @@ input[type="radio"] {
     background-position: right;
   }
 }
+
+.boton-borrar{
+  background-color: #3ca55c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
